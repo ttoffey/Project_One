@@ -14,7 +14,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 2,
+   "execution_count": 21,
    "metadata": {},
    "outputs": [
     {
@@ -40,7 +40,7 @@
        "      <th></th>\n",
        "      <th>IATA</th>\n",
        "      <th>AIRPORT</th>\n",
-       "      <th>City</th>\n",
+       "      <th>CITY</th>\n",
        "      <th>STATE</th>\n",
        "      <th>COUNTRY</th>\n",
        "      <th>LATITUDE</th>\n",
@@ -50,13 +50,13 @@
        "  <tbody>\n",
        "    <tr>\n",
        "      <th>0</th>\n",
-       "      <td>ADK</td>\n",
-       "      <td>Adak</td>\n",
-       "      <td>Adak</td>\n",
-       "      <td>AK</td>\n",
+       "      <td>ABQ</td>\n",
+       "      <td>Albuquerque International</td>\n",
+       "      <td>Albuquerque</td>\n",
+       "      <td>NM</td>\n",
        "      <td>USA</td>\n",
-       "      <td>51.877964</td>\n",
-       "      <td>-176.646031</td>\n",
+       "      <td>35.040222</td>\n",
+       "      <td>-106.609194</td>\n",
        "    </tr>\n",
        "    <tr>\n",
        "      <th>1</th>\n",
@@ -70,33 +70,33 @@
        "    </tr>\n",
        "    <tr>\n",
        "      <th>2</th>\n",
-       "      <td>BRW</td>\n",
-       "      <td>Wiley Post Will Rogers Memorial</td>\n",
-       "      <td>Barrow</td>\n",
-       "      <td>AK</td>\n",
+       "      <td>ATL</td>\n",
+       "      <td>William B Hartsfield-Atlanta Intl</td>\n",
+       "      <td>Atlanta</td>\n",
+       "      <td>GA</td>\n",
        "      <td>USA</td>\n",
-       "      <td>71.285448</td>\n",
-       "      <td>-156.766002</td>\n",
+       "      <td>33.640444</td>\n",
+       "      <td>-84.426944</td>\n",
        "    </tr>\n",
        "    <tr>\n",
        "      <th>3</th>\n",
-       "      <td>BET</td>\n",
-       "      <td>Bethel</td>\n",
-       "      <td>Bethel</td>\n",
-       "      <td>AK</td>\n",
+       "      <td>AUS</td>\n",
+       "      <td>Austin-Bergstrom International</td>\n",
+       "      <td>Austin</td>\n",
+       "      <td>TX</td>\n",
        "      <td>USA</td>\n",
-       "      <td>60.779776</td>\n",
-       "      <td>-161.837998</td>\n",
+       "      <td>30.194533</td>\n",
+       "      <td>-97.669872</td>\n",
        "    </tr>\n",
        "    <tr>\n",
        "      <th>4</th>\n",
-       "      <td>CDV</td>\n",
-       "      <td>Merle K (Mudhole) Smith</td>\n",
-       "      <td>Cordova</td>\n",
-       "      <td>AK</td>\n",
+       "      <td>BDL</td>\n",
+       "      <td>Bradley International</td>\n",
+       "      <td>Windsor Locks</td>\n",
+       "      <td>CT</td>\n",
        "      <td>USA</td>\n",
-       "      <td>60.491834</td>\n",
-       "      <td>-145.477650</td>\n",
+       "      <td>41.938874</td>\n",
+       "      <td>-72.683228</td>\n",
        "    </tr>\n",
        "    <tr>\n",
        "      <th>...</th>\n",
@@ -110,53 +110,53 @@
        "    </tr>\n",
        "    <tr>\n",
        "      <th>336</th>\n",
-       "      <td>RKS</td>\n",
-       "      <td>Rock Springs-Sweetwater County</td>\n",
-       "      <td>Rock Springs</td>\n",
-       "      <td>WY</td>\n",
+       "      <td>WRG</td>\n",
+       "      <td>Wrangell</td>\n",
+       "      <td>Wrangell</td>\n",
+       "      <td>AK</td>\n",
        "      <td>USA</td>\n",
-       "      <td>41.594217</td>\n",
-       "      <td>-109.065193</td>\n",
+       "      <td>56.484326</td>\n",
+       "      <td>-132.369824</td>\n",
        "    </tr>\n",
        "    <tr>\n",
        "      <th>337</th>\n",
-       "      <td>CLD</td>\n",
-       "      <td>MC Clellan-Palomar Airport</td>\n",
-       "      <td>NaN</td>\n",
-       "      <td>NaN</td>\n",
+       "      <td>WYS</td>\n",
+       "      <td>Yellowstone</td>\n",
+       "      <td>West Yellowstone</td>\n",
+       "      <td>MT</td>\n",
        "      <td>USA</td>\n",
-       "      <td>33.127231</td>\n",
-       "      <td>-117.278727</td>\n",
+       "      <td>44.688399</td>\n",
+       "      <td>-111.117638</td>\n",
        "    </tr>\n",
        "    <tr>\n",
        "      <th>338</th>\n",
-       "      <td>MQT</td>\n",
-       "      <td>Marquette County Airport</td>\n",
-       "      <td>NaN</td>\n",
-       "      <td>NaN</td>\n",
+       "      <td>XNA</td>\n",
+       "      <td>Northwest Arkansas Regional</td>\n",
+       "      <td>Fayetteville Springdale Rogers</td>\n",
+       "      <td>AR</td>\n",
        "      <td>USA</td>\n",
-       "      <td>46.353639</td>\n",
-       "      <td>-87.395361</td>\n",
+       "      <td>36.281869</td>\n",
+       "      <td>-94.306811</td>\n",
        "    </tr>\n",
        "    <tr>\n",
        "      <th>339</th>\n",
-       "      <td>SCE</td>\n",
-       "      <td>University Park</td>\n",
-       "      <td>NaN</td>\n",
-       "      <td>NaN</td>\n",
+       "      <td>YAK</td>\n",
+       "      <td>Yakutat</td>\n",
+       "      <td>Yakutat</td>\n",
+       "      <td>AK</td>\n",
        "      <td>USA</td>\n",
-       "      <td>40.851206</td>\n",
-       "      <td>-77.846302</td>\n",
+       "      <td>59.503361</td>\n",
+       "      <td>-139.660226</td>\n",
        "    </tr>\n",
        "    <tr>\n",
        "      <th>340</th>\n",
-       "      <td>SPN</td>\n",
-       "      <td>Tinian International Airport</td>\n",
-       "      <td>NaN</td>\n",
-       "      <td>NaN</td>\n",
-       "      <td>N Mariana Islands</td>\n",
-       "      <td>14.996111</td>\n",
-       "      <td>145.621384</td>\n",
+       "      <td>YUM</td>\n",
+       "      <td>Yuma MCAS-Yuma International</td>\n",
+       "      <td>Yuma</td>\n",
+       "      <td>AZ</td>\n",
+       "      <td>USA</td>\n",
+       "      <td>32.656583</td>\n",
+       "      <td>-114.605972</td>\n",
        "    </tr>\n",
        "  </tbody>\n",
        "</table>\n",
@@ -164,57 +164,57 @@
        "</div>"
       ],
       "text/plain": [
-       "    IATA                              AIRPORT          City STATE  \\\n",
-       "0    ADK                                 Adak          Adak    AK   \n",
-       "1    ANC  Ted Stevens Anchorage International     Anchorage    AK   \n",
-       "2    BRW      Wiley Post Will Rogers Memorial        Barrow    AK   \n",
-       "3    BET                               Bethel        Bethel    AK   \n",
-       "4    CDV              Merle K (Mudhole) Smith       Cordova    AK   \n",
-       "..   ...                                  ...           ...   ...   \n",
-       "336  RKS       Rock Springs-Sweetwater County  Rock Springs    WY   \n",
-       "337  CLD           MC Clellan-Palomar Airport           NaN   NaN   \n",
-       "338  MQT             Marquette County Airport           NaN   NaN   \n",
-       "339  SCE                      University Park           NaN   NaN   \n",
-       "340  SPN         Tinian International Airport           NaN   NaN   \n",
+       "    IATA                              AIRPORT                            CITY  \\\n",
+       "0    ABQ            Albuquerque International                     Albuquerque   \n",
+       "1    ANC  Ted Stevens Anchorage International                       Anchorage   \n",
+       "2    ATL    William B Hartsfield-Atlanta Intl                         Atlanta   \n",
+       "3    AUS       Austin-Bergstrom International                          Austin   \n",
+       "4    BDL                Bradley International                   Windsor Locks   \n",
+       "..   ...                                  ...                             ...   \n",
+       "336  WRG                             Wrangell                        Wrangell   \n",
+       "337  WYS                          Yellowstone                West Yellowstone   \n",
+       "338  XNA          Northwest Arkansas Regional  Fayetteville Springdale Rogers   \n",
+       "339  YAK                              Yakutat                         Yakutat   \n",
+       "340  YUM         Yuma MCAS-Yuma International                            Yuma   \n",
        "\n",
-       "               COUNTRY   LATITUDE   LONGITUDE  \n",
-       "0                  USA  51.877964 -176.646031  \n",
-       "1                  USA  61.174320 -149.996186  \n",
-       "2                  USA  71.285448 -156.766002  \n",
-       "3                  USA  60.779776 -161.837998  \n",
-       "4                  USA  60.491834 -145.477650  \n",
-       "..                 ...        ...         ...  \n",
-       "336                USA  41.594217 -109.065193  \n",
-       "337                USA  33.127231 -117.278727  \n",
-       "338                USA  46.353639  -87.395361  \n",
-       "339                USA  40.851206  -77.846302  \n",
-       "340  N Mariana Islands  14.996111  145.621384  \n",
+       "    STATE COUNTRY   LATITUDE   LONGITUDE  \n",
+       "0      NM     USA  35.040222 -106.609194  \n",
+       "1      AK     USA  61.174320 -149.996186  \n",
+       "2      GA     USA  33.640444  -84.426944  \n",
+       "3      TX     USA  30.194533  -97.669872  \n",
+       "4      CT     USA  41.938874  -72.683228  \n",
+       "..    ...     ...        ...         ...  \n",
+       "336    AK     USA  56.484326 -132.369824  \n",
+       "337    MT     USA  44.688399 -111.117638  \n",
+       "338    AR     USA  36.281869  -94.306811  \n",
+       "339    AK     USA  59.503361 -139.660226  \n",
+       "340    AZ     USA  32.656583 -114.605972  \n",
        "\n",
        "[341 rows x 7 columns]"
       ]
      },
-     "execution_count": 2,
+     "execution_count": 21,
      "metadata": {},
      "output_type": "execute_result"
     }
    ],
    "source": [
-    "airports_df = pd.read_csv('./Resource Files/airports.csv')\n",
+    "airports_df = pd.read_csv('Project Data/airports.csv')\n",
     "airports_df"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 3,
+   "execution_count": 39,
    "metadata": {},
    "outputs": [],
    "source": [
-    "airports_df_sorted = airports_df.sort_values(by=[\"STATE\",\"City\"])"
+    "airports_df_sorted = airports_df.sort_values(by=[\"STATE\",\"CITY\"])"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 4,
+   "execution_count": 47,
    "metadata": {},
    "outputs": [
     {
@@ -249,7 +249,7 @@
        "  </thead>\n",
        "  <tbody>\n",
        "    <tr>\n",
-       "      <th>0</th>\n",
+       "      <th>82</th>\n",
        "      <td>ADK</td>\n",
        "      <td>Adak</td>\n",
        "      <td>Adak</td>\n",
@@ -269,7 +269,7 @@
        "      <td>-149.996186</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>2</th>\n",
+       "      <th>112</th>\n",
        "      <td>BRW</td>\n",
        "      <td>Wiley Post Will Rogers Memorial</td>\n",
        "      <td>Barrow</td>\n",
@@ -279,7 +279,7 @@
        "      <td>-156.766002</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>3</th>\n",
+       "      <th>97</th>\n",
        "      <td>BET</td>\n",
        "      <td>Bethel</td>\n",
        "      <td>Bethel</td>\n",
@@ -289,7 +289,7 @@
        "      <td>-161.837998</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>4</th>\n",
+       "      <th>120</th>\n",
        "      <td>CDV</td>\n",
        "      <td>Merle K (Mudhole) Smith</td>\n",
        "      <td>Cordova</td>\n",
@@ -309,7 +309,7 @@
        "      <td>...</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>336</th>\n",
+       "      <th>292</th>\n",
        "      <td>RKS</td>\n",
        "      <td>Rock Springs-Sweetwater County</td>\n",
        "      <td>Rock Springs</td>\n",
@@ -319,7 +319,7 @@
        "      <td>-109.065193</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>337</th>\n",
+       "      <th>127</th>\n",
        "      <td>CLD</td>\n",
        "      <td>MC Clellan-Palomar Airport</td>\n",
        "      <td>NaN</td>\n",
@@ -329,7 +329,7 @@
        "      <td>-117.278727</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>338</th>\n",
+       "      <th>256</th>\n",
        "      <td>MQT</td>\n",
        "      <td>Marquette County Airport</td>\n",
        "      <td>NaN</td>\n",
@@ -339,7 +339,7 @@
        "      <td>-87.395361</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>339</th>\n",
+       "      <th>303</th>\n",
        "      <td>SCE</td>\n",
        "      <td>University Park</td>\n",
        "      <td>NaN</td>\n",
@@ -349,7 +349,7 @@
        "      <td>-77.846302</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>340</th>\n",
+       "      <th>312</th>\n",
        "      <td>SPN</td>\n",
        "      <td>Tinian International Airport</td>\n",
        "      <td>NaN</td>\n",
@@ -365,35 +365,35 @@
       ],
       "text/plain": [
        "    IATA                              AIRPORT          City STATE  \\\n",
-       "0    ADK                                 Adak          Adak    AK   \n",
+       "82   ADK                                 Adak          Adak    AK   \n",
        "1    ANC  Ted Stevens Anchorage International     Anchorage    AK   \n",
-       "2    BRW      Wiley Post Will Rogers Memorial        Barrow    AK   \n",
-       "3    BET                               Bethel        Bethel    AK   \n",
-       "4    CDV              Merle K (Mudhole) Smith       Cordova    AK   \n",
+       "112  BRW      Wiley Post Will Rogers Memorial        Barrow    AK   \n",
+       "97   BET                               Bethel        Bethel    AK   \n",
+       "120  CDV              Merle K (Mudhole) Smith       Cordova    AK   \n",
        "..   ...                                  ...           ...   ...   \n",
-       "336  RKS       Rock Springs-Sweetwater County  Rock Springs    WY   \n",
-       "337  CLD           MC Clellan-Palomar Airport           NaN   NaN   \n",
-       "338  MQT             Marquette County Airport           NaN   NaN   \n",
-       "339  SCE                      University Park           NaN   NaN   \n",
-       "340  SPN         Tinian International Airport           NaN   NaN   \n",
+       "292  RKS       Rock Springs-Sweetwater County  Rock Springs    WY   \n",
+       "127  CLD           MC Clellan-Palomar Airport           NaN   NaN   \n",
+       "256  MQT             Marquette County Airport           NaN   NaN   \n",
+       "303  SCE                      University Park           NaN   NaN   \n",
+       "312  SPN         Tinian International Airport           NaN   NaN   \n",
        "\n",
        "               COUNTRY   LATITUDE   LONGITUDE  \n",
-       "0                  USA  51.877964 -176.646031  \n",
+       "82                 USA  51.877964 -176.646031  \n",
        "1                  USA  61.174320 -149.996186  \n",
-       "2                  USA  71.285448 -156.766002  \n",
-       "3                  USA  60.779776 -161.837998  \n",
-       "4                  USA  60.491834 -145.477650  \n",
+       "112                USA  71.285448 -156.766002  \n",
+       "97                 USA  60.779776 -161.837998  \n",
+       "120                USA  60.491834 -145.477650  \n",
        "..                 ...        ...         ...  \n",
-       "336                USA  41.594217 -109.065193  \n",
-       "337                USA  33.127231 -117.278727  \n",
-       "338                USA  46.353639  -87.395361  \n",
-       "339                USA  40.851206  -77.846302  \n",
-       "340  N Mariana Islands  14.996111  145.621384  \n",
+       "292                USA  41.594217 -109.065193  \n",
+       "127                USA  33.127231 -117.278727  \n",
+       "256                USA  46.353639  -87.395361  \n",
+       "303                USA  40.851206  -77.846302  \n",
+       "312  N Mariana Islands  14.996111  145.621384  \n",
        "\n",
        "[341 rows x 7 columns]"
       ]
      },
-     "execution_count": 4,
+     "execution_count": 47,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -406,16 +406,25 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 5,
+   "execution_count": 31,
    "metadata": {},
    "outputs": [],
    "source": [
-    "airports_df_sorted.to_csv('airports.csv', index=False)  "
+    "zillow_df=pd.read_csv('Project Data/Zillow.csv')\n"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 6,
+   "execution_count": 35,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "zillow_df_sorted = zillow_df.sort_values(by=['State', 'RegionName'])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
    "metadata": {},
    "outputs": [
     {
@@ -464,7 +473,7 @@
        "  </thead>\n",
        "  <tbody>\n",
        "    <tr>\n",
-       "      <th>0</th>\n",
+       "      <th>18444</th>\n",
        "      <td>28124</td>\n",
        "      <td>21482</td>\n",
        "      <td>Anchor Point</td>\n",
@@ -488,7 +497,7 @@
        "      <td>187923</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>1</th>\n",
+       "      <th>74</th>\n",
        "      <td>23482</td>\n",
        "      <td>75</td>\n",
        "      <td>Anchorage</td>\n",
@@ -512,7 +521,7 @@
        "      <td>349256</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>2</th>\n",
+       "      <th>14185</th>\n",
        "      <td>50997</td>\n",
        "      <td>16107</td>\n",
        "      <td>Big Lake</td>\n",
@@ -536,7 +545,7 @@
        "      <td>179412</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>3</th>\n",
+       "      <th>17689</th>\n",
        "      <td>4089</td>\n",
        "      <td>20490</td>\n",
        "      <td>Chiniak</td>\n",
@@ -560,7 +569,7 @@
        "      <td>255739</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>4</th>\n",
+       "      <th>25336</th>\n",
        "      <td>10832</td>\n",
        "      <td>29449</td>\n",
        "      <td>Clam Gulch</td>\n",
@@ -608,7 +617,7 @@
        "      <td>...</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>25597</th>\n",
+       "      <th>5816</th>\n",
        "      <td>48466</td>\n",
        "      <td>6204</td>\n",
        "      <td>Wheatland</td>\n",
@@ -632,7 +641,7 @@
        "      <td>228388</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>25598</th>\n",
+       "      <th>9414</th>\n",
        "      <td>14671</td>\n",
        "      <td>10281</td>\n",
        "      <td>Wilson</td>\n",
@@ -656,7 +665,7 @@
        "      <td>1705122</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>25599</th>\n",
+       "      <th>6218</th>\n",
        "      <td>23322</td>\n",
        "      <td>6655</td>\n",
        "      <td>Worland</td>\n",
@@ -680,7 +689,7 @@
        "      <td>177760</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>25600</th>\n",
+       "      <th>24775</th>\n",
        "      <td>34921</td>\n",
        "      <td>29449</td>\n",
        "      <td>Wright</td>\n",
@@ -704,7 +713,7 @@
        "      <td>220420</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>25601</th>\n",
+       "      <th>21237</th>\n",
        "      <td>36376</td>\n",
        "      <td>25059</td>\n",
        "      <td>Yoder</td>\n",
@@ -734,91 +743,74 @@
       ],
       "text/plain": [
        "       RegionID  SizeRank          City RegionType StateName State      Metro  \\\n",
-       "0         28124     21482  Anchor Point       City        AK    AK        NaN   \n",
-       "1         23482        75     Anchorage       City        AK    AK  Anchorage   \n",
-       "2         50997     16107      Big Lake       City        AK    AK  Anchorage   \n",
-       "3          4089     20490       Chiniak       City        AK    AK        NaN   \n",
-       "4         10832     29449    Clam Gulch       City        AK    AK        NaN   \n",
+       "18444     28124     21482  Anchor Point       City        AK    AK        NaN   \n",
+       "74        23482        75     Anchorage       City        AK    AK  Anchorage   \n",
+       "14185     50997     16107      Big Lake       City        AK    AK  Anchorage   \n",
+       "17689      4089     20490       Chiniak       City        AK    AK        NaN   \n",
+       "25336     10832     29449    Clam Gulch       City        AK    AK        NaN   \n",
        "...         ...       ...           ...        ...       ...   ...        ...   \n",
-       "25597     48466      6204     Wheatland       City        WY    WY        NaN   \n",
-       "25598     14671     10281        Wilson       City        WY    WY    Jackson   \n",
-       "25599     23322      6655       Worland       City        WY    WY        NaN   \n",
-       "25600     34921     29449        Wright       City        WY    WY   Gillette   \n",
-       "25601     36376     25059         Yoder       City        WY    WY        NaN   \n",
+       "5816      48466      6204     Wheatland       City        WY    WY        NaN   \n",
+       "9414      14671     10281        Wilson       City        WY    WY    Jackson   \n",
+       "6218      23322      6655       Worland       City        WY    WY        NaN   \n",
+       "24775     34921     29449        Wright       City        WY    WY   Gillette   \n",
+       "21237     36376     25059         Yoder       City        WY    WY        NaN   \n",
        "\n",
        "                      CountyName  1/31/1996  2/29/1996  ...  6/30/2020  \\\n",
-       "0        Kenai Peninsula Borough        NaN        NaN  ...     177446   \n",
-       "1              Anchorage Borough   124382.0   124813.0  ...     325109   \n",
-       "2      Matanuska Susitna Borough        NaN        NaN  ...     180589   \n",
-       "3          Kodiak Island Borough        NaN        NaN  ...     244124   \n",
-       "4        Kenai Peninsula Borough        NaN        NaN  ...     194203   \n",
+       "18444    Kenai Peninsula Borough        NaN        NaN  ...     177446   \n",
+       "74             Anchorage Borough   124382.0   124813.0  ...     325109   \n",
+       "14185  Matanuska Susitna Borough        NaN        NaN  ...     180589   \n",
+       "17689      Kodiak Island Borough        NaN        NaN  ...     244124   \n",
+       "25336    Kenai Peninsula Borough        NaN        NaN  ...     194203   \n",
        "...                          ...        ...        ...  ...        ...   \n",
-       "25597              Platte County        NaN        NaN  ...     222651   \n",
-       "25598               Teton County        NaN        NaN  ...    1804165   \n",
-       "25599            Washakie County        NaN        NaN  ...     172355   \n",
-       "25600            Campbell County        NaN        NaN  ...     232114   \n",
-       "25601              Goshen County        NaN        NaN  ...     244381   \n",
+       "5816               Platte County        NaN        NaN  ...     222651   \n",
+       "9414                Teton County        NaN        NaN  ...    1804165   \n",
+       "6218             Washakie County        NaN        NaN  ...     172355   \n",
+       "24775            Campbell County        NaN        NaN  ...     232114   \n",
+       "21237              Goshen County        NaN        NaN  ...     244381   \n",
        "\n",
        "       7/31/2020  8/31/2020  9/30/2020  10/31/2020  11/30/2020  12/31/2020  \\\n",
-       "0         178979     180275     181152      182632      184261      185641   \n",
-       "1         327167     328447     329679      333744      337350      342606   \n",
-       "2         180263     179999     180947      181409      182209      182958   \n",
-       "3         245467     246982     248377      249151      249097      250023   \n",
-       "4         195920     197728     199309      201143      203076      204630   \n",
+       "18444     178979     180275     181152      182632      184261      185641   \n",
+       "74        327167     328447     329679      333744      337350      342606   \n",
+       "14185     180263     179999     180947      181409      182209      182958   \n",
+       "17689     245467     246982     248377      249151      249097      250023   \n",
+       "25336     195920     197728     199309      201143      203076      204630   \n",
        "...          ...        ...        ...         ...         ...         ...   \n",
-       "25597     222849     223067     223429      223755      224419      225217   \n",
-       "25598    1792924    1782245    1768537     1761790     1754819     1752594   \n",
-       "25599     172459     172821     173305      173875      174456      175162   \n",
-       "25600     230455     228712     227385      226223      225063      223787   \n",
-       "25601     246574     248474     249300      249878      251926      252623   \n",
+       "5816      222849     223067     223429      223755      224419      225217   \n",
+       "9414     1792924    1782245    1768537     1761790     1754819     1752594   \n",
+       "6218      172459     172821     173305      173875      174456      175162   \n",
+       "24775     230455     228712     227385      226223      225063      223787   \n",
+       "21237     246574     248474     249300      249878      251926      252623   \n",
        "\n",
        "       1/31/2021  2/28/2021  3/31/2021  \n",
-       "0         186201     187226     187923  \n",
-       "1         346383     348342     349256  \n",
-       "2         182468     180942     179412  \n",
-       "3         251322     253995     255739  \n",
-       "4         205864     207080     208053  \n",
+       "18444     186201     187226     187923  \n",
+       "74        346383     348342     349256  \n",
+       "14185     182468     180942     179412  \n",
+       "17689     251322     253995     255739  \n",
+       "25336     205864     207080     208053  \n",
        "...          ...        ...        ...  \n",
-       "25597     226078     227099     228388  \n",
-       "25598    1738168    1723221    1705122  \n",
-       "25599     175941     176939     177760  \n",
-       "25600     222605     221723     220420  \n",
-       "25601     254171     255667     258653  \n",
+       "5816      226078     227099     228388  \n",
+       "9414     1738168    1723221    1705122  \n",
+       "6218      175941     176939     177760  \n",
+       "24775     222605     221723     220420  \n",
+       "21237     254171     255667     258653  \n",
        "\n",
        "[25602 rows x 311 columns]"
       ]
      },
-     "execution_count": 6,
+     "execution_count": 49,
      "metadata": {},
      "output_type": "execute_result"
     }
    ],
    "source": [
-    "zillow_df=pd.read_csv('./Resource Files/Zillow.csv')\n",
-    "zillow_df"
+    "zillow_df_sorted.head(30)\n",
+    "zillow_df_sorted.rename(columns={'RegionName':'City'}, inplace=True)\n",
+    "zillow_df_sorted"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "zillow_df_sorted = zillow_df.sort_values(by=['State', 'City'])"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 18,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "zillow_df_sorted.to_csv('zillow.csv', index=False)          "
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 9,
+   "execution_count": 56,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -827,7 +819,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 10,
+   "execution_count": 57,
    "metadata": {},
    "outputs": [
     {
@@ -1200,7 +1192,7 @@
        "[1440 rows x 317 columns]"
       ]
      },
-     "execution_count": 10,
+     "execution_count": 57,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -1211,7 +1203,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 11,
+   "execution_count": 58,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -1220,7 +1212,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 12,
+   "execution_count": 59,
    "metadata": {},
    "outputs": [
     {
@@ -1593,7 +1585,7 @@
        "[515 rows x 317 columns]"
       ]
      },
-     "execution_count": 12,
+     "execution_count": 59,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -1601,199 +1593,6 @@
    "source": [
     "merged_df_clean"
    ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 13,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "merged_df_clean.to_csv('merged.csv', index=False)  "
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 14,
-   "metadata": {},
-   "outputs": [
-    {
-     "data": {
-      "text/plain": [
-       "Index(['IATA', 'AIRPORT', 'City', 'STATE', 'COUNTRY', 'LATITUDE', 'LONGITUDE',\n",
-       "       'RegionID', 'SizeRank', 'RegionType',\n",
-       "       ...\n",
-       "       '6/30/2020', '7/31/2020', '8/31/2020', '9/30/2020', '10/31/2020',\n",
-       "       '11/30/2020', '12/31/2020', '1/31/2021', '2/28/2021', '3/31/2021'],\n",
-       "      dtype='object', length=317)"
-      ]
-     },
-     "execution_count": 14,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "merged_df_clean.columns"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 15,
-   "metadata": {},
-   "outputs": [
-    {
-     "data": {
-      "text/plain": [
-       "IATA           object\n",
-       "AIRPORT        object\n",
-       "City           object\n",
-       "STATE          object\n",
-       "COUNTRY        object\n",
-       "               ...   \n",
-       "11/30/2020    float64\n",
-       "12/31/2020    float64\n",
-       "1/31/2021     float64\n",
-       "2/28/2021     float64\n",
-       "3/31/2021     float64\n",
-       "Length: 317, dtype: object"
-      ]
-     },
-     "execution_count": 15,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "merged_df_clean.dtypes"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 16,
-   "metadata": {},
-   "outputs": [
-    {
-     "ename": "FileNotFoundError",
-     "evalue": "[Errno 2] No such file or directory: '../Project Data/airport_ratings_passengers.csv'",
-     "output_type": "error",
-     "traceback": [
-      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
-      "\u001b[0;31mFileNotFoundError\u001b[0m                         Traceback (most recent call last)",
-      "\u001b[0;32m<ipython-input-16-90961d2a021f>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mairport_traffic_df\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mpd\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mread_csv\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m'../Project Data/airport_ratings_passengers.csv'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      2\u001b[0m \u001b[0mairport_traffic_df\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[0;32mdel\u001b[0m \u001b[0mairport_traffic_df\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m'Unnamed: 0'\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0mairport_traffic_df\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
-      "\u001b[0;32m~/opt/anaconda3/lib/python3.8/site-packages/pandas/io/parsers.py\u001b[0m in \u001b[0;36mread_csv\u001b[0;34m(filepath_or_buffer, sep, delimiter, header, names, index_col, usecols, squeeze, prefix, mangle_dupe_cols, dtype, engine, converters, true_values, false_values, skipinitialspace, skiprows, skipfooter, nrows, na_values, keep_default_na, na_filter, verbose, skip_blank_lines, parse_dates, infer_datetime_format, keep_date_col, date_parser, dayfirst, cache_dates, iterator, chunksize, compression, thousands, decimal, lineterminator, quotechar, quoting, doublequote, escapechar, comment, encoding, dialect, error_bad_lines, warn_bad_lines, delim_whitespace, low_memory, memory_map, float_precision)\u001b[0m\n\u001b[1;32m    684\u001b[0m     )\n\u001b[1;32m    685\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 686\u001b[0;31m     \u001b[0;32mreturn\u001b[0m \u001b[0m_read\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mfilepath_or_buffer\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mkwds\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    687\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    688\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
-      "\u001b[0;32m~/opt/anaconda3/lib/python3.8/site-packages/pandas/io/parsers.py\u001b[0m in \u001b[0;36m_read\u001b[0;34m(filepath_or_buffer, kwds)\u001b[0m\n\u001b[1;32m    450\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    451\u001b[0m     \u001b[0;31m# Create the parser.\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 452\u001b[0;31m     \u001b[0mparser\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mTextFileReader\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mfp_or_buf\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m**\u001b[0m\u001b[0mkwds\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    453\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    454\u001b[0m     \u001b[0;32mif\u001b[0m \u001b[0mchunksize\u001b[0m \u001b[0;32mor\u001b[0m \u001b[0miterator\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
-      "\u001b[0;32m~/opt/anaconda3/lib/python3.8/site-packages/pandas/io/parsers.py\u001b[0m in \u001b[0;36m__init__\u001b[0;34m(self, f, engine, **kwds)\u001b[0m\n\u001b[1;32m    944\u001b[0m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0moptions\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m\"has_index_names\"\u001b[0m\u001b[0;34m]\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mkwds\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m\"has_index_names\"\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    945\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 946\u001b[0;31m         \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_make_engine\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mengine\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    947\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    948\u001b[0m     \u001b[0;32mdef\u001b[0m \u001b[0mclose\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
-      "\u001b[0;32m~/opt/anaconda3/lib/python3.8/site-packages/pandas/io/parsers.py\u001b[0m in \u001b[0;36m_make_engine\u001b[0;34m(self, engine)\u001b[0m\n\u001b[1;32m   1176\u001b[0m     \u001b[0;32mdef\u001b[0m \u001b[0m_make_engine\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mengine\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m\"c\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1177\u001b[0m         \u001b[0;32mif\u001b[0m \u001b[0mengine\u001b[0m \u001b[0;34m==\u001b[0m \u001b[0;34m\"c\"\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1178\u001b[0;31m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_engine\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mCParserWrapper\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mf\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m**\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0moptions\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1179\u001b[0m         \u001b[0;32melse\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1180\u001b[0m             \u001b[0;32mif\u001b[0m \u001b[0mengine\u001b[0m \u001b[0;34m==\u001b[0m \u001b[0;34m\"python\"\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
-      "\u001b[0;32m~/opt/anaconda3/lib/python3.8/site-packages/pandas/io/parsers.py\u001b[0m in \u001b[0;36m__init__\u001b[0;34m(self, src, **kwds)\u001b[0m\n\u001b[1;32m   2006\u001b[0m         \u001b[0mkwds\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m\"usecols\"\u001b[0m\u001b[0;34m]\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0musecols\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   2007\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 2008\u001b[0;31m         \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_reader\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mparsers\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mTextReader\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0msrc\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m**\u001b[0m\u001b[0mkwds\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   2009\u001b[0m         \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0munnamed_cols\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_reader\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0munnamed_cols\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   2010\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
-      "\u001b[0;32mpandas/_libs/parsers.pyx\u001b[0m in \u001b[0;36mpandas._libs.parsers.TextReader.__cinit__\u001b[0;34m()\u001b[0m\n",
-      "\u001b[0;32mpandas/_libs/parsers.pyx\u001b[0m in \u001b[0;36mpandas._libs.parsers.TextReader._setup_parser_source\u001b[0;34m()\u001b[0m\n",
-      "\u001b[0;31mFileNotFoundError\u001b[0m: [Errno 2] No such file or directory: '../Project Data/airport_ratings_passengers.csv'"
-     ]
-    }
-   ],
-   "source": [
-    "airport_traffic_df = pd.read_csv('../Project Data/airport_ratings_passengers.csv')\n",
-    "airport_traffic_df\n",
-    "del airport_traffic_df['Unnamed: 0']\n",
-    "airport_traffic_df"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "airport_traffic_df.to_csv('airport_traffic_csv', index=False)   "
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "DataSetNew=pd.merge(airport_traffic_df, merged_df_clean, on=\"City\", how=\"left\")\n",
-    "    "
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {
-    "scrolled": true
-   },
-   "outputs": [],
-   "source": [
-    "DataSetNew.dropna(inplace=True)\n",
-    "DataSetNew.head(25)\n",
-    "\n"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "DataSetNew.to_csv('combined.csv', index=False) "
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "zillow_sales = zillow_df\n",
-    "zillow_sales"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "zillow_sales_1996=zillow_sales.groupby([\"State\",\"Metro\"])"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "zillow_sales_1996.sum()"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 17,
-   "metadata": {},
-   "outputs": [
-    {
-     "ename": "NameError",
-     "evalue": "name 'zillow_sales' is not defined",
-     "output_type": "error",
-     "traceback": [
-      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
-      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
-      "\u001b[0;32m<ipython-input-17-623dde3a0857>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mcol_list\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mlist\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mzillow_sales\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
-      "\u001b[0;31mNameError\u001b[0m: name 'zillow_sales' is not defined"
-     ]
-    }
-   ],
-   "source": [
-    "col_list = list(zillow_sales)"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
   },
   {
    "cell_type": "code",
