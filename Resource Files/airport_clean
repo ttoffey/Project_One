@@ -1,0 +1,53 @@
+Code,Originating Domestic Passengers 10%,Originating Domestic Passengers,AIRPORT,City,State,LATITUDE,LONGITUDE
+LAX,"1,564,494",15644940,Los Angeles International,Los Angeles,CA,33.94253611,-118.4080744
+ORD,"1,266,224",12662240,Chicago O'Hare International,Chicago,IL,41.979595,-87.90446417
+DEN,"1,241,394",12413940,Denver Intl,Denver,CO,39.85840806,-104.6670019
+ATL,"1,128,009",11280090,William B Hartsfield-Atlanta Intl,Atlanta,GA,33.64044444,-84.42694444
+BOS,"1,043,353",10433530,Gen Edw L Logan Intl,Boston,MA,42.3643475,-71.00517917
+SFO,"1,013,794",10137940,San Francisco International,San Francisco,CA,37.61900194,-122.3748433
+SEA,"1,001,502",10015020,Seattle-Tacoma Intl,Seattle,WA,47.44898194,-122.3093131
+EWR,"938,695",9386950,Newark Intl,Newark,NJ,40.69249722,-74.16866056
+DFW,"935,860",9358600,Dallas-Fort Worth International,Dallas-Fort Worth,TX,32.89595056,-97.0372
+MCO,"873,096",8730960,Orlando International,Orlando,FL,28.42888889,-81.31602778
+JFK,"830,008",8300080,John F Kennedy Intl,New York,NY,40.63975111,-73.77892556
+PHX,"816,031",8160310,Phoenix Sky Harbor International,Phoenix,AZ,33.43416667,-112.0080556
+LGA,"801,538",8015380,LaGuardia,New York,NY,40.77724306,-73.87260917
+LAS,"773,745",7737450,McCarran International,Las Vegas,NV,36.08036111,-115.15233329999998
+MSP,"726,465",7264650,Minneapolis-St Paul Intl,Minneapolis,MN,44.88054694,-93.2169225
+PHL,"694,107",6941070,Philadelphia Intl,Philadelphia,PA,39.87195278,-75.24114083
+DTW,"655,017",6550170,Detroit Metropolitan-Wayne County,Detroit,MI,42.21205889,-83.34883583
+SAN,"653,382",6533820,San Diego International-Lindbergh ,San Diego,CA,32.73355611,-117.1896567
+FLL,"636,760",6367600,Fort Lauderdale-Hollywood Int'l,Ft. Lauderdale,FL,26.07258333,-80.15275
+BWI,"628,088",6280880,Baltimore-Washington International,Baltimore,MD,39.17540167,-76.66819833
+IAH,"578,011",5780110,George Bush Intercontinental,Houston,TX,29.98047222,-95.33972222
+DCA,"562,560",5625600,Ronald Reagan Washington National,Arlington,VA,38.85208333,-77.03772222
+TPA,"541,352",5413520,Tampa International ,Tampa,FL,27.97547222,-82.53325
+PDX,"537,905",5379050,Portland Intl,Portland,OR,45.58872222,-122.5975
+AUS,"488,498",4884980,Austin-Bergstrom International,Austin,TX,30.19453278,-97.66987194
+SLC,"448,431",4484310,Salt Lake City Intl,Salt Lake City,UT,40.78838778,-111.9777731
+CLT,"439,658",4396580,Charlotte Douglas International,Charlotte,NC,35.21401111,-80.94312583
+SJC,"438,478",4384780,San Jose International,San Jose,CA,37.36186194,-121.9290089
+RDU,"417,339",4173390,Raleigh-Durham International,Raleigh,NC,35.87763889,-78.78747222
+MDW,"415,696",4156960,Chicago Midway,Chicago,IL,41.7859825,-87.75242444
+BNA,"413,833",4138330,Nashville International,Nashville,TN,36.12447667,-86.67818222
+SMF,"405,082",4050820,Sacramento International,Sacramento,CA,38.69542167,-121.5907669
+OAK,"389,248",3892480,Metropolitan Oakland International,Oakland,CA,37.72129083,-122.2207167
+MIA,"388,762",3887620,Miami International,Miami,FL,25.79325,-80.29055556
+STL,"367,059",3670590,Lambert-St Louis International,St Louis,MO,38.74768694,-90.35998972
+MCI,"350,507",3505070,Kansas City International,Kansas City,MO,39.29760528,-94.71390556
+DAL,"337,688",3376880,Dallas Love ,Dallas,TX,32.84711389,-96.85177222
+HNL,"327,764",3277640,Honolulu International,Honolulu,HI,21.31869111,-157.92240719999995
+CLE,"318,712",3187120,Cleveland-Hopkins Intl,Cleveland,OH,41.41089417,-81.84939667
+MSY,"316,979",3169790,New Orleans International ,New Orleans,LA,29.99338889,-90.25802778
+IAD,"314,108",3141080,Washington Dulles International,Chantilly,VA,38.94453194,-77.45580972
+IND,"296,292",2962920,Indianapolis International,Indianapolis,IN,39.71732917,-86.29438417
+PIT,"295,056",2950560,Pittsburgh International,Pittsburgh,PA,40.49146583,-80.23287083
+SNA,"287,349",2873490,John Wayne  Orange Co,Santa Ana,CA,33.67565861,-117.86822250000002
+HOU,"285,339",2853390,William P X,Houston,TX,29.64541861,-95.27888889
+CVG,"282,179",2821790,Cincinnati Northern Kentucky Intl,Covington,KY,39.04614278,-84.6621725
+SAT,"272,582",2725820,San Antonio International,San Antonio,TX,29.53369444,-98.46977778
+CMH,"262,874",2628740,Port Columbus Intl,Columbus,OH,39.99798528,-82.89188278
+BDL,"232,144",2321440,Bradley International,Windsor Locks,CT,41.93887417,-72.68322833
+RSW,"222,337",2223370,Southwest Florida International,Ft. Myers,FL,26.53616667,-81.75516667
+MKE,"221,655",2216550,General Mitchell International,Milwaukee,WI,42.94722222,-87.89658333
+SJU,"215,090",2150900,Luis Munoz Marin International,San Juan,PR,18.43941667,-66.00183333
