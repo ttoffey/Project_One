@@ -30,7 +30,9 @@ Project 1 for Rutgers Data Science Bootcamp
 
 3. How does living near the airport affect the nearby geological climate and terrain?
 
-4. How cities closer to airports comparable in economics status to those without any airports? 
+4. How cities closer to airports comparable in economics status to those without any airports?
+
+5. Are you smarter for living near an airport?
 
 
 ## Supplementary Data Sources
@@ -43,6 +45,37 @@ Project 1 for Rutgers Data Science Bootcamp
 
 #### [Google Maps API](https://developers.google.com/places/web-service/overview)
 
-#### [Google Maps Public Data](https://developers.google.com/public-data/docs/canonical/countries_csv)
+#### [Department of Transportation](https://www.bts.gov/airport-rankings-2019)
 
+## CSVs
+
+### [Airport Ratings By Number of Passengers](https://github.com/ttoffey/Project_One/blob/main/Resource%20Files/airport_ratings_passengers.csv) 
+
+### [Airport Traffic](https://github.com/ttoffey/Project_One/blob/main/Resource%20Files/airport_traffic_csv) 
+
+### [Top Cities Census Info](https://github.com/ttoffey/Project_One/blob/main/Resource%20Files/topcitiescensusinfo.csv) 
+
+### [Zillow Surrounding Market Value](https://github.com/ttoffey/Project_One/blob/main/Resource%20Files/zillow.csv) 
+
+### [All Merged Data](https://github.com/ttoffey/Project_One/blob/main/Resource%20Files/merged.csv) 
+ 
+## Python Code
+
+#### 1) [Airport Data Merge](https://github.com/ttoffey/Project_One/blob/main/Airports_data.ipynb)
+
+#### 2) [Air Quality Notebook](https://github.com/ttoffey/Project_One/blob/main/Melissa.ipynb)
+
+#### 3) [Airport Lists and Visuals](https://github.com/ttoffey/Project_One/blob/main/MyGroupProject1.ipynb)
+
+#### 4) [Zillow Sales](https://github.com/ttoffey/Project_One/blob/main/New_Zillow_sales.ipynb)
+
+#### 5) [Scatter Plots and Commonalities](https://github.com/ttoffey/Project_One/blob/main/New_Zillow_sales.ipynb)
+
+#### 6) [Top Cities](https://github.com/ttoffey/Project_One/blob/main/Top_Cities_Census.ipynb)
+
+#### 7) [Top Cities and Population Info](https://github.com/ttoffey/Project_One/blob/main/Top_airport_cities_and_population_info.ipynb)
+
+#### 7) [Updated Zillow Sales](https://github.com/ttoffey/Project_One/blob/main/zillow_sales.ipynb)
+
+# Thank You!
 
