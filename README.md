@@ -73,9 +73,9 @@ Project 1 for Rutgers Data Science Bootcamp
 
 #### 6) [Top Cities](https://github.com/ttoffey/Project_One/blob/main/Top_Cities_Census.ipynb)
 
-#### 7) [Top Cities and Population Info](https://github.com/ttoffey/Project_One/blob/main/Top_airport_cities_and_population_info.ipynb)
+#### 7) [Top Cities and Population Info](https://github.com/ttoffey/Project_One/blob/main/Airports_data.ipynb)
 
-#### 7) [Updated Zillow Sales](https://github.com/ttoffey/Project_One/blob/main/zillow_sales.ipynb)
+#### 8) [Updated Zillow Sales](https://github.com/ttoffey/Project_One/blob/main/zillow_sales.ipynb)
 
 # Thank You!
 
