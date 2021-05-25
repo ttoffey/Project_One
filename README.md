@@ -65,7 +65,7 @@ Project 1 for Rutgers Data Science Bootcamp
 
 #### 2) [Air Quality Notebook](https://github.com/ttoffey/Project_One/blob/main/Melissa.ipynb)
 
-#### 3) [Airport Lists and Visuals](https://github.com/ttoffey/Project_One/blob/main/MyGroupProject1.ipynb)
+#### 3) [Airport Lists and Visuals](https://github.com/ttoffey/Project_One/blob/main/Airports_data.ipynb)
 
 #### 4) [Zillow Sales](https://github.com/ttoffey/Project_One/blob/main/New_Zillow_sales.ipynb)
 
